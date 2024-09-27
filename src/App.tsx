@@ -1,8 +1,12 @@
 import React from 'react';
+import { Header } from './components/Header/Header';
+
+//CSS
+import "./styles/global.css"
 
 function App() {
   return (
-   <h1>React + TY</h1>
+   <Header/>
 );
 }
 
